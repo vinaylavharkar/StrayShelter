@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>StrayShelter</title>
+
+    <link rel="stylesheet" href="home.css" />
+
+    <link rel="icon" href="title logo.png" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cabin:wght@500&family=EB+Garamond&family=Merriweather:wght@700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cabin:wght@500&family=Caveat&family=EB+Garamond&family=Merriweather:wght@700&family=Roboto:wght@100&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+
+  </head>
+  <body class="fade-in">
+
+    <img id="img" src="background1.jpg" alt="" />
+   
+    <div>
+      <!-- NAV BAR -->
+      <nav class="navbar navbar-expand-lg navbar-light sticky-top" id="navbar">
+        <div class="container-fluid">
+          
+          <!-- LOGO -->
+          <a class="navbar-brand" href="home.html">
+            <img id="logo" src="logo.png" alt=""/>
+          </a>
+          
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <div class="ms-lg-20">
+              <ul
+                class="navbar-nav justify-content-end me-auto mb-2 mb-lg-0"
+                id="navele">
+                <li class="nav-item">
+                  <a class="nav-link" href="home.html">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="aboutus.html">About Us</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="contactus.html">Contact Us</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+        </div>
+      </nav>
+
+      <!-- SLIDES -->
+      <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+        
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="1.png" class="d-block w-100" alt="..." />
+          </div>
+          <div class="carousel-item">
+            <img src="2.png" class="d-block w-100" alt="..." />
+          </div>
+          <div class="carousel-item">
+            <img src="3.png" class="d-block w-100" alt="..." />
+          </div>
+          <div class="carousel-item">
+            <img src="4.png" class="d-block w-100" alt="..." />
+          </div>
+          <div class="carousel-item">
+            <img src="5.png" class="d-block w-100" alt="..." />
+          </div>
+          <div class="carousel-item">
+            <img src="6.png" class="d-block w-100" alt="..." />
+          </div>
+        </div>
+
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+
+      </div>
+
+      <!-- CARDS -->
+      <div id="centerCards">
+        <div class="" id="cardshere">
+          <p id="upcardstext">Let's join together and help them!</p>
+          <div class="row">
+          
+            <!-- ADD STRAY -->
+            <div class="col-md-4 col-lg-3 col-12" style="display: flex; justify-content: center;">
+              <div class="card" style="width: 15rem; height: 24.1rem; margin: 10px;" >
+                <img src="post.png" class="card-img-top" alt="..." />
+                <div class="card-body">
+                  <h5 class="card-title text-center">Add Stray</h5>
+                  <hr />
+                  <p class="card-text text-center">Add Pet for Adoption</p>
+                  <p class="text-center btext">
+                  <a href="addpet.html" class="button">Post</a>
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <!-- ADOPT STRAY -->
+            <div class="col-md-4 col-lg-3 col-12" style="display: flex; justify-content: center;">
+              <div class="card" style="width: 15rem; height: 24.1rem; margin: 10px;">
+                <img src="adopt.png" class="card-img-top uimg" alt="..." />
+                <div class="card-body">
+                  <h5 class="card-title text-center">Adopt Stray</h5>
+                  <hr />
+                  <p class="card-text text-center">Adopt a Lovely Pet Here</p>
+                  <p class="text-center btext">
+                    <a href="petGallery.php" class="button">Adopt</a>
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <!-- REGISTER AS VETERINARY DOCTOR --> 
+            <div class="col-md-4 col-lg-3 col-12" style="display: flex; justify-content: center;">
+              <div class="card" style="width: 15rem; height: 24.1rem; margin: 10px;" >
+                <img src="register.png" class="card-img-top" alt="..." />
+                <div class="card-body">
+                  <h5 class="card-title text-center text-center">
+                    Volunteer Treatment
+                  </h5>
+                  <hr />
+                  <p class="card-text text-center">
+                    Register as Veterinary Doctor
+                  </p>
+                  <p class="text-center btext">
+                    <a href="vetform.html" class="button">Register</a>
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <!-- FIND VETERINARY DOCTOR -->
+            <div class="col-md-4 col-lg-3 col-12" style="display: flex; justify-content: center;">
+              <div class="card" style="width: 15rem; height: 24.1rem; margin: 10px;">
+                <img src="tt.png" class="card-img-top limg" alt="..." />
+                <div class="card-body">
+                  <h5 class="card-title text-center">Find Veterinary Doctor</h5>
+                  <hr />
+                  <p class="card-text text-center">Contact Veterinary Doctor</p>
+                  <p class="text-center btext">
+                    <a href="doctGallery.php" class="button">Get Help</a>
+                  </p>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <!-- FOOTER -->
+    <footer class="bg-dark text-center text-white" id="footer">
+  
+      <div class="container p-4">
+        
+        <!-- NAV BUTTONS -->
+        <section class="mb-4">
+          <a href="home.html" role="button" >
+            <button type="button" class="btn btn-outline-light">HOME</button>
+          </a><span style="  margin: 15px;"></span>
+    
+          <a href="aboutus.html" role="button">
+            <button type="button" class="btn btn-outline-light">ABOUT US</button>
+          </a><span style="  margin: 15px;"></span>
+    
+          <a href="contactus.html" role="button">
+            <button type="button" class="btn btn-outline-light">CONTACT US</button>
+          </a><span style="  margin: 15px;"></span> 
+        </section>
+
+        <!-- PROJECT DESCRIPTION -->
+        <section class="mb-4">
+          <p>
+            <b>StrayShelter: </b>This project is an intiative to create public awareness for caring and adoption of stray animals. Developed for fulfillment of Capstone Project.
+          </p>
+        </section>
+
+        <!-- SOCIAL MEADIA LINKS -->
+        <section class="mb-4">
+          <a class="btn btn-floating m-1" href="#!" role="button">
+            <img src="twitter.png"></img>
+          </a>
+      
+          <a class="btn btn-floating m-1" href="#!" role="button">
+            <img src="insta.png"></img>
+          </a>
+
+          <a class="btn btn-floating m-1" href="#!" role="button">
+            <img src="Linkedin.png"></img>
+          </a>
+        </section>
+      </div>
+
+      <!-- COPYRIGHT -->
+      <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+        © 2024 Copyright: <a class="text-white" href="index.html">StrayShelter.com</a>
+      </div>
+
+    </footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous">
+    </script>
+
+  </body>
+</html>
